@@ -13,8 +13,8 @@
         <title>Will's JSP Pizza Order</title>
     </head>
     <body>
-        <h1>Order Result</h1>
-
+         <h1>Thank you for your order!</h1>
+        <h2>Order details:</h2>
         <%= request.getParameter("email")%>
 
         <p>Email = ${param.email}</p>
